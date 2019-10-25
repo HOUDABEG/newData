@@ -1,0 +1,171 @@
+html
+{
+    background: linear-gradient(#3F9170A2,#49966BA4, #FFED008C);
+
+    /* Obligatoire si on veut "voir" le dégradé */
+    width: 100%;
+    height: 100%;
+    
+}
+.container{
+    position: relative;
+}
+.picture
+{
+width: 80px;
+opacity: 0.7;
+position: fixed;
+}
+.menu
+{
+	margin-top: 10px;
+	margin-left: 95%;
+    width: 10px;
+    color: #FFFFFF;
+}
+
+    .aide
+    {
+         width: 40px;
+    margin-left: 95%;
+   
+    }
+    .retour
+    {
+            width: 20px;
+    margin-top: 40px;
+    color: gold;
+        }
+p
+        {
+            margin: 15px;
+           
+           text-align: center;
+height: auto;
+background-color: #FFFFFF;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 10px;
+border-width: 0px;
+box-shadow: 4px 4px 8px #0000003D;
+background-color: #FFFFFF;
+border-radius: 20px;
+font-family: sans-serif;
+display: inline-block;
+position: center;
+        }
+.donnee
+{
+  
+    margin-left: 30%;
+    margin-right: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 40%;
+    
+}
+.donnee p{
+    min-width: 15%; 
+    margin: 4%;
+}
+.donnee p:nth-child(8),.donnee p:nth-child(9){
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.description p
+{
+    text-align: center;
+    display: inline-block;
+    line-height: 2;
+    background-color: #FFFFFF;
+margin-left: 520px;
+margin-right: 480px;
+}
+.enregistrer
+{
+    margin-left: 90%;
+    width: 30px;
+    
+}
+footer{
+    position: absolute;
+    height: auto;
+    width: 95%;
+    top: 90vh;
+  }
+  .nom
+  {
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: -10px;
+  }
+
+.test a{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    border-block-end: 0.1rem solid #00000029; 
+    writing-mode: horizontal-tb;
+    width: 100%;
+    margin-left: -20px;
+}
+.button{
+
+    background-color: white;
+    border: 0;
+    padding-left: 45px;
+}
+.icon
+{
+    height: 30px;
+    margin-top: -10px;
+    position: absolute;
+   
+    
+}
+.menu-cacher
+{
+    display: none;
+}
+.menu-visible
+{
+    visibility: visible;
+    position: absolute;
+    z-index:1;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    
+}
+.flou{
+    z-index:-3;
+    filter: blur(10px);
+}
+   .test
+{
+    margin: 150px;
+    background-color: #FFFFFF;
+    display: block;
+   
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    width: fit-content;
+    border-width: 0px;
+    box-shadow: 4px 4px 8px #0000003D;
+  
+    font-size: 16px;
+    padding-right: 20px;
+    padding-left: 20px;
+    z-index: 2;
+    opacity: 1;   
+    filter: blur(0px);
+}

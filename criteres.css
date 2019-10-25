@@ -1,0 +1,70 @@
+html
+{
+    background: linear-gradient(#3F9170A2,#49966BA4, #FFED008C);
+
+    /* Obligatoire si on veut "voir" le dégradé */
+    width: 100%;
+    height: 100%;
+
+}
+.picture
+{
+width: 80px;
+opacity: 0.7;
+position: fixed;
+}
+.menu
+{
+    margin-top: 10px;
+    margin-left: 95%;
+    width: 10px;
+    color: #FFFFFF;
+}
+
+.critere
+{
+
+	color: white;
+    font-size: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+footer{
+  position: absolute;
+  height: auto;
+  width: 95%;
+  top: 90vh;
+}
+input
+{
+	  border-radius: 20px;
+    height: 40px;
+    border-width: 0px;
+    box-shadow: 4px 4px 8px #0000003D;
+    margin-top: 20px;
+    margin-right: 10px;
+    font-size: 16px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+/*CRITERES */
+.criteres
+{
+display: block;
+ margin-left: auto;
+margin-right: auto;
+    width: fit-content;
+}
+a img
+{
+        width: 50px;
+margin-left: 48%;
+margin-top: 20px;
+}
+.aide
+{
+     width: 40px;
+margin-left: 95%;
+
+}
