@@ -68,7 +68,7 @@ position: center;
 }
 .donnee p{
     min-width: 15%; 
-    margin: 4%;
+    margin: 3%;
 }
 .donnee p:nth-child(8),.donnee p:nth-child(9){
     margin-left: 20%;
@@ -169,3 +169,7 @@ footer{
     opacity: 1;   
     filter: blur(0px);
 }
+ .sub{
+    width: 55px;
+    margin-left: 48%;
+ }

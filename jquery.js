@@ -43,20 +43,21 @@ $(document).ready(function () {
         container.removeClass('flou');
       }
       });
-
-
-    
+      $(document).on("click",".subscrib", "sub",function(){
+        console.log("enregistrer");
+        element = $(".subscrib");
+        var message = 'entreprise enregistrée'
+        if(element.hasClass('subscrib',"sub")) {
+          var src = ($(this).attr('src') === 'images/subscrib2.png')
+          ? 'images/subscrib2.png'
+          : 'images/subscrib.png';
+          $(this).attr('src', src);
+          alert(message);
+        }
+        
+  });
+  
   }
-
-  /*  Faire une fonction pour vérifier les boutons avant de passer a la page suivante */
-  // $( ".validation" ).click(function( event ) {
-  //
-  //   if (!verificationAvantValidation()) {
-  //     event.preventDefault();
-  //   }else {
-  //   }
-  // });
-
 })
 //Mettre les fonctions en dehors du document ready
 function verificationAvantValidation(){
